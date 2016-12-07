@@ -1,0 +1,15 @@
+{
+  "name": "tennis-testing-kata",
+  "version": "0.0.0",
+  "private": true,
+  "description": "tennis refactoring kata",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Ivo von Putzer Reibegg <ivo.putzer@gmail.com> (https://github.com/ivoputzer)",
+  "license": "MIT",
+  "dependencies": {
+    "mocha": "^3.2.0"
+  }
+}
