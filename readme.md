@@ -4,8 +4,6 @@ Imagine you work for a consultancy company, and one of your colleagues has been 
 
 There are three versions of this refactoring kata, each with their own design smells and challenges. I suggest you start with the first one, with the class "TennisGame1". The test suite provided is fairly comprehensive, and fast to run. You should not need to change the tests, only run them often as you refactor.
 
-If you like this Kata, you may be interested in my book, ["The Coding Dojo Handbook"](https://leanpub.com/codingdojohandbook)
-
 ## Tennis Kata
 
 Tennis has a rather quirky scoring system, and to newcomers it can be a little difficult to keep track of. The tennis society has contracted you to build a scoreboard to display the current score during tennis games.
@@ -29,3 +27,5 @@ You need only report the score for the current game. Sets and Matches are out of
 * Did you ever make any refactoring mistakes and then back out your changes? How did it feel to throw away code?
 * What would you say to your colleague if they had written this code?
 * What would you say to your boss about the value of this refactoring work? Was there more reason to do it over and above the extra billable hour or so?
+
+See the original kata here: https://github.com/emilybache/Tennis-Refactoring-Kata
