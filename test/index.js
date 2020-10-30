@@ -1,5 +1,5 @@
 const {resolve} = require('path')
-const {equal} = require('assert')
+const {strictEqual: equal} = require('assert')
 const allScores = [
     [0, 0, "Love-All"],
     [1, 1, "Fifteen-All"],
@@ -56,8 +56,8 @@ function checkScore (TennisGame, player1Score, player2Score, expectedScore) {
 [ 'TennisGame1.js', 'TennisGame2.js', 'TennisGame3.js' ].forEach(function(filename, i){
   describe(filename, function () {
     const TennisGame = require(resolve(filename))
-    it('works', () => {
-      allScores.forEach(function(score) {
+    allScores.forEach(function(score) {
+      it(`Score [${score[0]} - ${score[1]}] is equal to ${score[2]}`, () => {
         checkScore(TennisGame, ...score)
       })
     })
