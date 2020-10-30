@@ -9,7 +9,7 @@
   },
   "author": "Ivo von Putzer Reibegg <ivo.putzer@gmail.com> (https://github.com/ivoputzer)",
   "license": "MIT",
-  "dependencies": {
-    "mocha": "^3.2.0"
+  "devDependencies": {
+    "mocha": "^8.2.0"
   }
 }
