@@ -6,11 +6,13 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha test",
-    "mob": "./mob.sh $@"
+    "mob": "./mob.sh $@",
+    "coverage": "nyc --reporter=html --reporter=text mocha"
   },
   "author": "Ivo von Putzer Reibegg <ivo.putzer@gmail.com> (https://github.com/ivoputzer)",
   "license": "MIT",
   "devDependencies": {
-    "mocha": "^8.2.0"
+    "mocha": "^8.2.0",
+    "nyc": "^15.1.0"
   }
 }
