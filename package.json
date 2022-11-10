@@ -12,7 +12,7 @@
   "author": "Ivo von Putzer Reibegg <ivo.putzer@gmail.com> (https://github.com/ivoputzer)",
   "license": "MIT",
   "devDependencies": {
-    "mocha": "^8.2.0",
+    "mocha": "^10.1.0",
     "nyc": "^15.1.0"
   }
 }
